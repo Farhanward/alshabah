@@ -1,0 +1,8 @@
+{
+  "allowed_domains": [
+    "example.com",
+    "carbonflows.store"
+  ],
+  "dry_run": true,
+  "max_steps": 8
+}

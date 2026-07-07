@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alshabah"
+version = "1.0.0"
+authors = [{ name = "Farhan Almutairi", email = "far7an.o88@gmail.com" }]
+description = "Safe web-action planning layer."
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "Proprietary" }
+
+[project.scripts]
+alshabah = "alshabah.cli:main"
+
+[tool.setuptools]
+packages = ["alshabah"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

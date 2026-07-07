@@ -1,0 +1,21 @@
+{
+  "processed": 36000,
+  "allowed": 36000,
+  "blocked": 0,
+  "errors": 0,
+  "steps": 77136,
+  "latency_ms": {
+    "mean": 0.02830492778674751,
+    "p99": 0.0475000124424696,
+    "max": 0.8054999925661832
+  },
+  "memory_mb": {
+    "current": 1.176592,
+    "peak": 1.177159
+  },
+  "elapsed_seconds": 1.0837269999901764,
+  "collapse_check": {
+    "passed": true,
+    "criteria": "errors == 0"
+  }
+}
